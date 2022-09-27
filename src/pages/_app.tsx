@@ -16,11 +16,10 @@ const MyApp: AppType<{ session: Session | null }> = ({
   pageProps: { session, ...pageProps },
 }) => {
   const router = useRouter();
-  const showHeader = router.pathname === '/auth/signin' || router.pathname === '/auth/signup' ? false : true;
-
+  
   return (
     <SessionProvider session={session}>
-      {showHeader && <NavBar />}
+      
       <Component {...pageProps} />
     </SessionProvider>
   );
