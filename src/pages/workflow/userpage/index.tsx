@@ -43,8 +43,8 @@ const Profile = () => {
                         <h3 className='mx-2 text-sm'>Settings</h3>
                     </div>
                 </div>
-                <div className='ng-white p-6 rounded-lg shadow-sm w-full md:w-3/5 bg-white'>
-                    <div className='flex flex-col md:flex-row justify-between items-center'>
+                <div className='p-6 rounded-lg shadow-sm w-full md:w-3/5 bg-white'>
+                    <div className='flex flex-row flex-row justify-between items-center'>
                         <div className='infline-flex'>
                             <h2 className='text-lg text-gray-700'>Account Settings</h2>
                         </div>
